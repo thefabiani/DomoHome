@@ -47,9 +47,10 @@ public class Connector {
             return activeNetwork != null &&
                     activeNetwork.isConnected();
     }
+    /*not yet implemented
     public static boolean isHostReachable() throws IOException {
         InetAddress inetAddress;
         inetAddress=InetAddress.getByName(sIp);
         return  inetAddress.isReachable(10000);
-    }
+    }*/
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SmartHome</string>
+    <string name="app_name">DomoHome</string>
 	<string name="title_activity_command">CommandActivity</string>
 	<string name="command_label">Command name</string>    
 	<string name="command_title_hint">Enter a name for this command</string>
