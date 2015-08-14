@@ -3,7 +3,7 @@ package com.fabiani.domohome.app;
 import android.app.Fragment;
 
 /**
- * Created by Giovanni on 26/12/2014. prova GIT
+ * Created by Giovanni on 26/12/2014. prova GIT nghdfghdfh
  */
 public class CommandGridActivity extends SingleFragmentActivity{
     @Override
