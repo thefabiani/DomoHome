@@ -1,5 +1,6 @@
 package com.fabiani.domohome.app;
 
+import android.annotation.TargetApi;
 import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
@@ -16,7 +17,7 @@ import com.myhome.fcrisciani.exception.MalformedCommandOPEN;
 import java.util.ArrayList;
 
 /**
- * Created by Giovanni on 26/12/2014.
+ * Created by Giovanni on 26/12/2014. prova git
  */
 public class CommandGridFragment extends Fragment {
     static final String TAG = "CommandGridFragment";
@@ -39,6 +40,7 @@ public class CommandGridFragment extends Fragment {
         mWhoStringArray = getActivity().getResources().getStringArray(R.array.who_array);
     }
 
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
         View v=null;
