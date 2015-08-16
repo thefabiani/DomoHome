@@ -22,6 +22,7 @@ public class Connector {
     static String sIp;
     static int sPort;
     private MyHomeJavaConnector mMyHomeJavaConnector;
+
     Connector() {
     }
 
